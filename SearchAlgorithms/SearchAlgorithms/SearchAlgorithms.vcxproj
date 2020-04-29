@@ -151,18 +151,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\RedBlackAlgorithm\RedBlackAlgorithm\RBTree.cpp" />
     <ClCompile Include="AlphaBetaMinMax.cpp" />
     <ClCompile Include="Quadtree.cpp" />
+    <ClCompile Include="RBTree.cpp" />
     <ClCompile Include="SearchAlgorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\RedBlackAlgorithm\RedBlackAlgorithm\RBNode.h" />
-    <ClInclude Include="..\..\RedBlackAlgorithm\RedBlackAlgorithm\RBTree.h" />
     <ClInclude Include="AlphaBetaMinMax.h" />
     <ClInclude Include="Binaria.h" />
     <ClInclude Include="Quadtree.h" />
     <ClInclude Include="QuadtreeNode.h" />
+    <ClInclude Include="RBNode.h" />
+    <ClInclude Include="RBTree.h" />
     <ClInclude Include="Secuencia.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
